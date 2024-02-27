@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --corprimaria-color:#221B33;
+}
 @font-face {
     font-family: 'Jost';
     src: url(fontes/Jost/Jost-Italic-VariableFont_wght.ttf) format(truetype);
@@ -13,8 +16,8 @@
     font-weight: normal;
 }
 header{
-background-color:#221B33 ;
-font-family: 'Jost', Helvetica, sans-serif;
+background-color: var(--corprimaria-color)
+font-family 'Jost', Helvetica, sans-serif;
 font-size: 1.5em;
 text-align: center;
 }
